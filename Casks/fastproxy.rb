@@ -1,6 +1,6 @@
 cask "fastproxy" do
-  version "1.0.1"
-  sha256 "4ff48395dbf8e12f6051f84b0fa1443359774dec37e66f127110344fe23775ab"
+  version "1.0.2"
+  sha256 "ec1d391761f1daf7575ff8a791b4c163c05877fba394e728b971997a35e8b9f7"
 
   url "https://github.com/JohannesBauer97/fastproxy/releases/download/v#{version}/FastProxy-#{version}-macos-arm64.zip"
   name "FastProxy"
@@ -31,7 +31,7 @@ cask "fastproxy" do
 
   caveats <<~EOS
     FastProxy is a menu bar app. Launch it from /Applications after installation.
-    The default proxy port is 3129.
+    The default proxy port is 3128.
     The command-line tool is available as fastproxy-cli.
   EOS
 end
