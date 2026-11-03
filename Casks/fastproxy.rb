@@ -1,3 +1,4 @@
+# temporary marker for pipeline test
 cask "fastproxy" do
   version "1.0.1"
   sha256 "4ff48395dbf8e12f6051f84b0fa1443359774dec37e66f127110344fe23775ab"
