@@ -1,6 +1,6 @@
 cask "fastproxy" do
-  version "1.0.3"
-  sha256 "0a44c1e22d1112ecabe8ea07473338bf2f54fe7385a734a1395cf25e3cf280be"
+  version "1.0.4"
+  sha256 "71496b319095caf0a37287be6902ee01ae6de30f55d341883b0357a40a3cb7e3"
 
   url "https://github.com/JohannesBauer97/fastproxy/releases/download/v#{version}/FastProxy-#{version}-macos-arm64.zip"
   name "FastProxy"
